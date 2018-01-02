@@ -1,0 +1,3 @@
+phonecatApp.controller('searchController',function(){
+    
+});

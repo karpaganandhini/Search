@@ -1,0 +1,35 @@
+<div ng-controller="navbarController" ng-cloak id="navbar-component">
+  <md-content class="md-padding">
+    <md-nav-bar id="navbar"
+      md-no-ink-bar="disableInkBar"
+      md-selected-nav-item="currentNavItem"
+      nav-bar-aria-label="navigation links">
+      <md-nav-item md-nav-click="goto('link1')" name="link1" id="link123">
+        link One
+      </md-nav-item>
+      <md-nav-item md-nav-click="goto('link2')" name="link2">
+        link Two
+      </md-nav-item>
+      <md-nav-item md-nav-click="goto('link3')" name="link3">
+        link Three
+      </md-nav-item>
+    </md-nav-bar>
+
+  </md-content>
+</div>
+
+<style>
+#navbar-component md-content .ext-content {
+  padding: 50px;
+  margin: 20px;
+  background-color: #FFF2E0;
+
+ }
+  #navbar{
+      width:100%;
+  }
+
+  #link123{
+    margin-left: 1057px;
+  }
+</style>
